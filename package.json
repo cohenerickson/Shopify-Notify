@@ -1,0 +1,26 @@
+{
+  "name": "shopify-notify",
+  "version": "1.0.0",
+  "description": "Receive text notifications when items become in-stock.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cohenerickson/Shopify-Notify.git"
+  },
+  "author": "Cohen Erickson",
+  "bugs": {
+    "url": "https://github.com/cohenerickson/Shopify-Notify/issues"
+  },
+  "homepage": "https://github.com/cohenerickson/Shopify-Notify#readme",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.11.17",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

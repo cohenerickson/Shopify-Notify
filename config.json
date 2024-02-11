@@ -1,0 +1,27 @@
+{
+  // Interval in milliseconds
+  "interval": 60000,
+  // Discord user IDs
+  "notify": ["533081943638671377"],
+  // Message template
+  "template": "{notify} {type} {name}'s are in stock!\n{url}",
+  // Discord Webhook URL
+  "webhook": "https://discord.com/api/webhooks/1205962358690947082/IpflR1caShtVqUES6LHEl8kfrOlrlcZJqmfFQ3rK4RVkYP3JnaEoRGdVYqwPH8nfchQZ",
+  // Stores
+  "stores": {
+    "storeus.sleep-token.com": [
+      // Product matching
+      {
+        "id": 8322459631860,
+        "handle": "chokehold-lyric-hoodie",
+        // Variant matching
+        "variants": [
+          {
+            "id": 44472364695796,
+            "title": "S"
+          }
+        ]
+      }
+    ]
+  }
+}
